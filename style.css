@@ -1,0 +1,177 @@
+.card {
+  background: #222;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  transition: 0.3s;
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.card:hover {
+  background: #333;
+}
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.detalle-btn {
+  background-color: #007bff;
+}
+.filtros {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.buscador {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.select-rol {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.agentes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  background: #1e1e1e;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.modal-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.btn-rojo {
+  margin-top: 1rem;
+  background-color: crimson;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.filtros {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.buscador {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.select-rol {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.agentes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  background: #1e1e1e;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.modal-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.btn-rojo {
+  margin-top: 1rem;
+  background-color: crimson;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #111;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.titulo-principal{
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
